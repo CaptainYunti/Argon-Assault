@@ -16,7 +16,7 @@ MonoBehaviour:
   trackScale: 1
   playRangeEnabled: 0
   timeAreaPlayRange: {x: 0.25, y: 1.75}
-  windowTime: 3
+  windowTime: 0
   verticalScroll: 0
   showMarkerHeader: 0
   sequencerHeaderWidth: 328
@@ -26,14 +26,14 @@ MonoBehaviour:
   m_Vals:
   - collapsed: 0
     showMarkers: 1
-    showInlineCurves: 0
+    showInlineCurves: 1
     inlineAnimationCurveHeight: 100
-    lastInlineCurveDataID: 16202
+    lastInlineCurveDataID: 16214
     inlineCurvesState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 8274e78a
-      m_LastClickedID: -1964542846
-      m_ExpandedIDs: 00000080ffffffffc98b1b0d
+      m_SelectedIDs: 3d07a1be
+      m_LastClickedID: -1096743107
+      m_ExpandedIDs: 00000080caf82bd9ffffffffc98b1b0d
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -64,12 +64,12 @@ MonoBehaviour:
     showMarkers: 1
     showInlineCurves: 1
     inlineAnimationCurveHeight: 100
-    lastInlineCurveDataID: -14654
+    lastInlineCurveDataID: 16216
     inlineCurvesState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 3d07a1be
       m_LastClickedID: -1096743107
-      m_ExpandedIDs: 00000080ca40d7b4
+      m_ExpandedIDs: 00000080ca40d7b4ffffffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
