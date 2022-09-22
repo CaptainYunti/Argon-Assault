@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d79cb9ecc0d4a6d428ab98a681a33897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeAreaShownRange: {x: -0.09019781, y: 9.91274}
-  trackScale: 1
+  timeAreaShownRange: {x: -0.077855825, y: 8.665354}
+  trackScale: 1.3
   playRangeEnabled: 0
   timeAreaPlayRange: {x: 0.25, y: 1.75}
-  windowTime: 0
+  windowTime: 3.716666666666667
   verticalScroll: 0
   showMarkerHeader: 0
   sequencerHeaderWidth: 328
@@ -28,12 +28,12 @@ MonoBehaviour:
     showMarkers: 1
     showInlineCurves: 1
     inlineAnimationCurveHeight: 100
-    lastInlineCurveDataID: 16214
+    lastInlineCurveDataID: 16928
     inlineCurvesState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3d07a1be
-      m_LastClickedID: -1096743107
-      m_ExpandedIDs: 00000080caf82bd9ffffffffc98b1b0d
+      m_SelectedIDs: e7ff3fe8
+      m_LastClickedID: -398458905
+      m_ExpandedIDs: 00000080caf82bd9ffffffffc98b1b0d359fa41f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -54,9 +54,9 @@ MonoBehaviour:
     inlineCurvesShownAreaInsideMargins:
       serializedVersion: 2
       x: 0
-      y: -100.83008
-      width: 9.912741
-      height: 295.41556
+      y: -100.8301
+      width: 8.665354
+      height: 295.41553
     trackHeightExtension: 0
     m_MarkerTimeStampsKeys: 
     m_MarkerTimeStampsValues: 
@@ -64,12 +64,12 @@ MonoBehaviour:
     showMarkers: 1
     showInlineCurves: 1
     inlineAnimationCurveHeight: 100
-    lastInlineCurveDataID: 16216
+    lastInlineCurveDataID: 16930
     inlineCurvesState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3d07a1be
-      m_LastClickedID: -1096743107
-      m_ExpandedIDs: 00000080ca40d7b4ffffffff
+      m_SelectedIDs: d87b4861
+      m_LastClickedID: 1632140248
+      m_ExpandedIDs: 00000080ca40d7b4ffffffff96accb568e848858aac42877
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -91,7 +91,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: -197.73997
-      width: 9.912741
+      width: 8.665354
       height: 1079.9
     trackHeightExtension: 5
     m_MarkerTimeStampsKeys: 
