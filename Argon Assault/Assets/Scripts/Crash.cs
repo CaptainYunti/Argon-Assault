@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Crash : MonoBehaviour
 {
 
-    [SerializeField] float secondsToWaitAfterCrash = 1f;
+    [SerializeField] float secondsToWaitAfterCrash = 2f;
     [SerializeField] ParticleSystem explosionParticle;
 
     private void OnTriggerEnter(Collider other)
