@@ -8,6 +8,7 @@ public class PlayerControls : MonoBehaviour
 {
     [SerializeField] InputAction movement;
     [SerializeField] InputAction fire;
+    [SerializeField] InputAction quitGame;
 
     [Header("General setup Settings")]
     [Tooltip("How fast ship moves up and down")] 
@@ -43,12 +44,14 @@ public class PlayerControls : MonoBehaviour
     {
         movement.Enable();
         fire.Enable();
+        quitGame.Enable();
     }
 
     private void OnDisable()
     {
         movement.Disable();
         fire.Disable();
+        quitGame.Disable();
     }
 
     // Update is called once per frame
@@ -57,11 +60,21 @@ public class PlayerControls : MonoBehaviour
         ProcessTranslation();
         ProcessRotation();
         ProcessFiring();
+        ProcessQuiting();
 
         // float horizontalThrow = Input.GetAxis("Horizontal");
         // float verticalThrow = Input.GetAxis("Vertical");
         /*        Debug.Log(xThrow);
                 Debug.Log(yThrow);*/
+    }
+
+    private void ProcessQuiting()
+    {
+        if(quitGame.IsPressed())
+        {
+            Debug.Log("Quit");
+            Application.Quit();
+        }
     }
 
     void ProcessRotation()
